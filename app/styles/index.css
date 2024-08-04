@@ -6,7 +6,7 @@
 }
 
 body {
-  margin: 0 auto;
+  margin: 2.5em auto;
   padding: 2rem;
   text-align: center;
   width: 1080px;
@@ -24,4 +24,9 @@ ul.list-container {
 
 ul.list-container > li {
   list-style-type: none;
+}
+
+.card {
+  border: 1px solid;
+  height: 150px;
 }
