@@ -27,6 +27,14 @@ ul.list-container > li {
 }
 
 .card {
-  border: 1px solid;
-  height: 150px;
+  background-color: #1d9bf0;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+}
+
+.card a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
