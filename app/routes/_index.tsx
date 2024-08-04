@@ -1,3 +1,4 @@
+import type { LinksFunction } from "@remix-run/node";
 import type { MetaFunction } from "@netlify/remix-runtime";
 import Card from "~/components/Card";
 
@@ -7,6 +8,12 @@ export const meta: MetaFunction = () => {
     { name: "description", content: "Welcome to Remix!" },
   ];
 };
+
+import styles from "~/styles/index.css?url";
+
+export const links: LinksFunction = () => [
+  { rel: "stylesheet", href: styles },
+];
 
 export default function Index() {
   return (

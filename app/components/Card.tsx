@@ -1,4 +1,10 @@
-import "../styles/card.css";
+import type { LinksFunction } from "@remix-run/node";
+
+import styles from "../styles/card.css?url";
+
+export const links: LinksFunction = () => [
+  { rel: "stylesheet", href: styles }
+];
 
 export default function Card(props: any) {
   return (
