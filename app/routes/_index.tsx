@@ -2,7 +2,7 @@ import type { MetaFunction } from "@netlify/remix-runtime";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
+    { title: "Mxli Coffee Points" },
     { name: "description", content: "Welcome to Remix!" },
   ];
 };
