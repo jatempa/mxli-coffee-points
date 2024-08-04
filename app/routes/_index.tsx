@@ -4,7 +4,7 @@ import Card from "~/components/Card";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Mxli Coffee Points" },
+    { title: "Mxli Coffee Shop Points" },
     { name: "description", content: "Welcome to Remix!" },
   ];
 };
