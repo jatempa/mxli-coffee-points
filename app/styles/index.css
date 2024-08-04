@@ -26,19 +26,3 @@ ul.list-container > li {
   list-style-type: none;
 }
 
-.card {
-  background-color: #1d9bf0;
-  text-transform: uppercase;
-  color: white;
-  font-weight: bold;
-}
-
-.card:hover {
-  background-color: #3761a8;
-}
-
-.card a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-}

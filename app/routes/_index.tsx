@@ -1,6 +1,6 @@
 import type { LinksFunction } from "@remix-run/node";
 import type { MetaFunction } from "@netlify/remix-runtime";
-import Card from "~/components/Card";
+import Card, { links as cardStyles } from "~/components/Card";
 
 export const meta: MetaFunction = () => {
   return [
@@ -13,6 +13,7 @@ import styles from "~/styles/index.css?url";
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: styles },
+  ...cardStyles(),
 ];
 
 export default function Index() {
