@@ -1,4 +1,4 @@
-import "../styles/card.css?url";
+import "../styles/card.css";
 
 export default function Card(props: any) {
   return (
