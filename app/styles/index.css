@@ -1,0 +1,27 @@
+:root {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 1080px;
+  max-width: 1280px;
+  min-height: 300px;
+}
+
+ul.list-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 150px;
+  grid-auto-rows: 150px;
+  gap: 15px;
+}
+
+ul.list-container > li {
+  list-style-type: none;
+}
