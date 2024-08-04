@@ -33,6 +33,10 @@ ul.list-container > li {
   font-weight: bold;
 }
 
+.card:hover {
+  background-color: #3761a8;
+}
+
 .card a {
   text-decoration: none;
   color: white;
