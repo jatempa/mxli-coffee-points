@@ -1,4 +1,3 @@
-import type { LinksFunction } from "@remix-run/node";
 import {
   Links,
   Meta,
@@ -6,11 +5,7 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-import styles from "~/styles/index.css";
-
-export const links: LinksFunction = () => [
-  { rel: "stylesheet", href: styles },
-];
+import "~/styles/index.css?url";
 
 export default function App() {
   return (
