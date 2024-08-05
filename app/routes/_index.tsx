@@ -2,7 +2,7 @@ import { LinksFunction, json } from "@remix-run/node";
 import type { MetaFunction } from "@netlify/remix-runtime";
 import { useLoaderData } from "@remix-run/react";
 import Card, { links as cardStyles } from "~/components/Card";
-import coffeeShops from "~/data/coffee-shops.json";
+import { getCoffeeShops } from "~/data/getCoffeeShops";
 
 export const meta: MetaFunction = () => {
   return [
@@ -19,7 +19,7 @@ export const links: LinksFunction = () => [
 ];
 
 export const loader = async () => {
-  return json({coffeeShops});
+  return json({ coffeeShops: getCoffeeShops()});
 };
 
 export default function Index() {
