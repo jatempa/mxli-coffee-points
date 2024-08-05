@@ -1,6 +1,8 @@
-import type { LinksFunction } from "@remix-run/node";
+import { LinksFunction, json } from "@remix-run/node";
 import type { MetaFunction } from "@netlify/remix-runtime";
+import { useLoaderData } from "@remix-run/react";
 import Card, { links as cardStyles } from "~/components/Card";
+import coffeeShops from "~/data/coffee-shops.json";
 
 export const meta: MetaFunction = () => {
   return [
@@ -16,61 +18,22 @@ export const links: LinksFunction = () => [
   ...cardStyles(),
 ];
 
+export const loader = async () => {
+  return json({coffeeShops});
+};
+
 export default function Index() {
+  const { coffeeShops } = useLoaderData<typeof loader>();
+
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
       <ul className="list-container">
-        <li>
-          <Card>Cafenio</Card>
-        </li>
-        <li>
-          <Card link="https://www.facebook.com/cafelanegrita">Cafe la Negrita</Card>
-        </li>
-        <li>
-          <Card link="https://www.facebook.com/revoltmxli">
-            Revolt Café & Boutique Mexicali
-          </Card>
-        </li>
-        <li>
-          <Card>
-            Chianti Cafe. Deli.
-          </Card>
-        </li>
-        <li>
-          <Card link="https://www.facebook.com/zafarirestaurantebar">
-            Zafari Restaurante Bar
-          </Card>
-        </li>        
-        <li>
-          <Card link="https://www.facebook.com/Uno800BD">
-            UNO 800 Brew Dispatch
-          </Card>
-        </li>        
-        <li>
-          <Card link="https://www.facebook.com/profile.php?id=100076334313413">
-            Black Garden
-          </Card>
-        </li>        
-        <li>
-          <Card link="https://www.facebook.com/pages/Cafe-Tr3z/604309876613741">
-            Cafe Tr3z
-          </Card>
-        </li>        
-        <li>
-          <Card link="https://www.facebook.com/KalinkaMexicali">
-            Kalinka Mxli
-          </Card>
-        </li>        
-        <li>
-          <Card link="https://www.facebook.com/BLGranVia/">
-            Blue Luna
-          </Card>
-        </li>        
-        <li>
-          <Card link="https://www.facebook.com/profile.php?id=100047052203544">
-            Moulú
-          </Card>
-        </li>        
+        {coffeeShops.map((coffeeShop) => (
+            <li key={coffeeShop.id}>
+              <Card link={coffeeShop.link!}>{coffeeShop.name}</Card>
+            </li>
+          ))
+        }
       </ul>
     </div>
   );
