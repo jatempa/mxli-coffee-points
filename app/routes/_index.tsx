@@ -41,10 +41,17 @@ export default function Index() {
           .filter((coffeeShop) => coffeeShop.link)
           .map((coffeeShop) => (
             <li key={coffeeShop.id}>
-              <Link to={coffeeShop.link!} prefetch="intent" preventScrollReset target="_blank" rel="noreferrer">
+              <Link 
+                to={coffeeShop.link!}
+                prefetch="intent"
+                preventScrollReset
+                target="_blank"
+                rel="noreferrer">
                 <Card>
                   {coffeeShop.name}
-                  <address>{coffeeShop.address}</address>
+                  <address>
+                    {coffeeShop.address}
+                  </address>
                 </Card>
               </Link>
             </li>
