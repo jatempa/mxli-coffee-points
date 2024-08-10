@@ -18,15 +18,18 @@ export const links: LinksFunction = () => [
 ];
 
 export default function Index() {
+  const coffeeShops = getCoffeeShops();
+
   return (
     <div>
       <ul id="coffeeShopsContainer">
-        {getCoffeeShops().map((coffeeShop) => (
-            <li key={coffeeShop.id}>
-              <Card link={coffeeShop.link!}>{coffeeShop.name}</Card>
-            </li>
-          ))
-        }
+        {coffeeShops.map((coffeeShop) => (
+          <li key={coffeeShop.id}>
+            <Card link={coffeeShop.link!}>
+              {coffeeShop.name}
+            </Card>
+          </li>
+        ))}
       </ul>
     </div>
   );
