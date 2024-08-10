@@ -11,7 +11,7 @@ type CardProps = {
 }
 
 export default function Card(props: PropsWithChildren<CardProps>) {
-  const { children, link } = props;
+  const { children } = props;
   return (
     <article className="card">
       <header>{children}</header>
