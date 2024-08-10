@@ -25,3 +25,6 @@ ul#coffeeShopsContainer {
   gap: 15px;
 }
 
+ul#coffeeShopsContainer li a {
+  text-decoration: none;
+}
