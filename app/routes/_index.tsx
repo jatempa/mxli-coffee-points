@@ -21,6 +21,17 @@ export const links: LinksFunction = () => [
 export default function Index() {
   const coffeeShops = getCoffeeShops();
 
+  // custom sort function
+  coffeeShops.sort((a, b) => {
+    if ( a.name < b.name ){
+      return -1;
+    }
+    if ( a.name > b.name ){
+      return 1;
+    }
+    return 0;
+  });
+
   return (
     <div>
       <ul id="coffeeShopsContainer">
