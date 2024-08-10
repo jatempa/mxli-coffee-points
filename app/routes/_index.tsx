@@ -19,10 +19,10 @@ export const links: LinksFunction = () => [
 ];
 
 function compare(a: CoffeeShop, b: CoffeeShop) {
-    if ( a.name.toUpperCase() < b.name.toUpperCase() ){
+    if (a.name.toUpperCase() < b.name.toUpperCase()){
       return -1;
     }
-    if ( a.name.toUpperCase() > b.name.toUpperCase() ){
+    if (a.name.toUpperCase() > b.name.toUpperCase()){
       return 1;
     }
     return 0;
