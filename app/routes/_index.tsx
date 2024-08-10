@@ -24,15 +24,18 @@ export default function Index() {
   return (
     <div>
       <ul id="coffeeShopsContainer">
-        {coffeeShops.map((coffeeShop) => (
-          <li key={coffeeShop.id}>
-            <Link to={coffeeShop.link!} prefetch="intent" preventScrollReset>
-              <Card>
-                {coffeeShop.name}
-              </Card>
-            </Link>
-          </li>
-        ))}
+        {coffeeShops
+          .filter((coffeeShop) => coffeeShop.link)
+          .map((coffeeShop) => (
+            <li key={coffeeShop.id}>
+              <Link to={coffeeShop.link!} prefetch="intent" preventScrollReset>
+                <Card>
+                  {coffeeShop.name}
+                </Card>
+              </Link>
+            </li>
+          ))
+        }
       </ul>
     </div>
   );
