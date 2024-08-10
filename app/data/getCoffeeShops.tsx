@@ -1,5 +1,11 @@
 import coffeeShops from "~/data/coffee-shops.json";
 
-export function getCoffeeShops() {
+export type CoffeeShop = {
+    id: string;
+    name: string;
+    link: string | null;
+}
+
+export function getCoffeeShops(): CoffeeShop[] {
   return coffeeShops;
 }
