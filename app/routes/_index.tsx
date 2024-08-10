@@ -19,8 +19,8 @@ export const links: LinksFunction = () => [
 
 export default function Index() {
   return (
-    <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
-      <ul className="list-container">
+    <div>
+      <ul id="coffeeShopsContainer">
         {getCoffeeShops().map((coffeeShop) => (
             <li key={coffeeShop.id}>
               <Card link={coffeeShop.link!}>{coffeeShop.name}</Card>
