@@ -13,11 +13,9 @@ body {
   width: 1080px;
   max-width: 1280px;
   min-height: 300px;
-  border: 1px solid;
 }
 
-ul {
-  border: 1px solid;
+ul#coffeeShopsContainer {
   padding: 0;
   list-style-type: none;
   display: grid;
