@@ -4,6 +4,7 @@ export type CoffeeShop = {
     id: string;
     name: string;
     link: string | null;
+    address: string | null;
 }
 
 export function getCoffeeShops(): CoffeeShop[] {

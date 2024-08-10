@@ -2,106 +2,127 @@
   {
     "id": "4bdbe6a7-de3d-48e7-a3a9-82a04b3ab3cd",
     "name": "Cafenio",
-    "link": null
+    "link": null,
+    "address": null
   },
   {
     "id": "dd6aeefb-93e3-4500-95c8-b0622a4cdb56",
     "name": "Cafe la Negrita",
-    "link": "https://www.facebook.com/cafelanegrita"
+    "link": "https://www.facebook.com/cafelanegrita",
+    "address": null
   },
   {
     "id": "e7e7297e-c57e-4652-8f04-28a893001ba8",
     "name": "Revolt Café & Boutique Mexicali",
-    "link": "https://www.facebook.com/revoltmxli"
+    "link": "https://www.facebook.com/revoltmxli",
+    "address": "AVE COAXAMALUCAN 1817 Esquina con Jaripeo, FRACCIONAMIENTO CALAFIA 21040 , Nuevo Mexicali, Mexico"
   },
   {
     "id": "2dbfa211-168e-4c94-ba64-631eb0e5bc25",
     "name": "Chianti Cafe. Deli.",
-    "link": null
+    "link": null,
+    "address": null
   },
   {
     "id": "4fb0beea-0b67-48f8-9f96-63e3a2a6002a",
     "name": "Zafari Restaurante Bar",
-    "link": "https://www.facebook.com/zafarirestaurantebar"
+    "link": "https://www.facebook.com/zafarirestaurantebar",
+    "address": "Boulevar Benito Juárez 3693, Mexicali, Mexico"
   },
   {
     "id": "af229e00-f522-40ee-9dc2-f69224808681",
     "name": "UNO 800 Brew Dispatch",
-    "link": "https://www.facebook.com/Uno800BD"
+    "link": "https://www.facebook.com/Uno800BD",
+    "address": "Mision San Diego 3287, Hacienda Dorada, Mexicali, Mexico"
   },
   {
     "id": "2359997e-335b-411f-898c-52f59e2213fc",
     "name": "Black Garden",
-    "link": "https://www.facebook.com/profile.php?id=100076334313413"
+    "link": "https://www.facebook.com/profile.php?id=100076334313413",
+    "address": "Calz. Manuel Gómez Morín 1799, 21259, Mexicali, Mexico"
   },
   {
     "id": "9a8c74a3-c91b-4deb-82c4-bb090d377460",
     "name": "Cafe Tr3z",
-    "link": "https://www.facebook.com/pages/Cafe-Tr3z/604309876613741"
+    "link": "https://www.facebook.com/pages/Cafe-Tr3z/604309876613741",
+    "address": "1755 Avenida Reforma 21100 Mexicali, Península de Baja California, México"
   },
   {
     "id": "441566cc-3821-4827-9909-036c6d40fc0e",
     "name": "Kalinka Mxli",
-    "link": "https://www.facebook.com/KalinkaMexicali"
+    "link": "https://www.facebook.com/KalinkaMexicali",
+    "address": "Calzada Cetys 2600, Plaza Punta Este, Local 120, Mexicali, Mexico"
   },
   {
     "id": "0c1ee451-ffc4-4b1c-85cb-25fac9668bb0",
     "name": "Moulú",
-    "link": "https://www.facebook.com/profile.php?id=100047052203544"
+    "link": "https://www.facebook.com/profile.php?id=100047052203544",
+    "address": "Av Republica de Brasil 866"
   },
   {
     "id": "283c91a8-3d91-4f06-a277-1778b2878f48",
     "name": "Blue Luna",
-    "link": "https://www.facebook.com/BLGranVia/"
+    "link": "https://www.facebook.com/BLGranVia/",
+    "address": "Plaza La Gran Vía Local 4, Calzada Cetys, 21259 Mexicali, B.C., Mexicali, Mexico"
   },
   {
     "id": "446685a2-5e6d-4ff0-afc2-4413febbbba0",
     "name": "tseek café",
-    "link": "https://www.facebook.com/tseekcafe"
+    "link": "https://www.facebook.com/tseekcafe",
+    "address": null
   },
   {
     "id": "12ffd4f7-03b3-4682-9f88-31efe6b1e39c",
     "name": "Elev8tion Coffee Roasters",
-    "link": "https://www.facebook.com/elev8tioncoffee"
+    "link": "https://www.facebook.com/elev8tioncoffee",
+    "address": "Blvd. Benito Juárez Sn, Jardines del Valle, 21279 Mexicali, B.C."
   },
   {
     "id": "5a8d2a1c-9a11-456d-9a6e-02ea0bcf3b8b",
     "name": "infraganti",
-    "link": ""
+    "link": null,
+    "address": null
   },
   {
     "id": "c31fc36b-bd3e-4a7d-ad75-a69e7820b2b8",
     "name": "earlybird",
-    "link": ""
+    "link": null,
+    "address": null
   },
   {
     "id": "e44345e1-75ba-4df8-ae9f-9dc3a95c4954",
     "name": "Contenti Coffee & Deli",
-    "link": "https://www.facebook.com/contenti.mxl"
+    "link": "https://www.facebook.com/contenti.mxl",
+    "address": "Tapiceros esquina calle H, Mexicali, Mexico"
   },
   {
     "id": "60575131-c789-4c7f-8e14-2a1f14d257a0",
     "name": "Trascendental Coffee Bar",
-    "link": "https://www.facebook.com/profile.php?id=100039883674485"
+    "link": "https://www.facebook.com/profile.php?id=100039883674485",
+    "address": "Av. Lucio Blanco #700 esquina con Río Sinaloa, Mexicali, Mexico"
   },
   {
     "id": "9766eb88-f39c-4c6e-a162-006b27118354",
     "name": "Capitulo UNO",
-    "link": "https://www.facebook.com/capitulounocafe"
+    "link": "https://www.facebook.com/capitulounocafe",
+    "address": "Ignacio Lopez Rayon 599, Mexicali, Mexico"
   },
   {
     "id": "c87074b1-b5cc-4602-92c6-c26e5238d675",
     "name": "Mexica Fé",
-    "link": "https://www.facebook.com/mexicafemx"
+    "link": "https://www.facebook.com/mexicafemx",
+    "address": "Avenida Álvaro Obregón 1150, Mexicali, Mexico"
   },
   {
     "id": "29ac133d-9c42-44dd-ba96-b50db4abb3d0",
     "name": "Café Colibrí",
-    "link": "https://www.facebook.com/profile.php?id=100068111433197"
+    "link": "https://www.facebook.com/profile.php?id=100068111433197",
+    "address": "Mexicali, Mexico, 21200"
   },
   {
     "id": "45c5e812-c521-4c58-852c-6991a48a8d15",
     "name": "B19 Coffee Bar",
-    "link": "https://www.facebook.com/B19COFFEEBAR"
+    "link": "https://www.facebook.com/B19COFFEEBAR",
+    "address": "Av Juan Aldama 785, Mexicali, Mexico"
   }
 ]
