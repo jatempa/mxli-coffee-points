@@ -26,7 +26,7 @@ export default function Index() {
       <ul id="coffeeShopsContainer">
         {coffeeShops.map((coffeeShop) => (
           <li key={coffeeShop.id}>
-            <Link to={coffeeShop.link!} preventScrollReset>
+            <Link to={coffeeShop.link!} prefetch="intent" preventScrollReset>
               <Card>
                 {coffeeShop.name}
               </Card>
