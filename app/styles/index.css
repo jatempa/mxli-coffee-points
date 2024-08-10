@@ -11,8 +11,6 @@ body {
 }
 
 ul#coffeeShopsContainer {
-  height: 800px;
-  overflow-y: auto;
   padding: 0;
   list-style-type: none;
   display: grid;
