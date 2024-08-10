@@ -1,13 +1,17 @@
 .card {
   height: 150px;
-  background-color: #1d9bf0;
+  border: 4px solid #1f4992;
 
   &:hover {
-    background-color: #3761a8;
+    & > header {
+      color: white;
+    }
+
+    background-color: #1f4992;
   }
 
   & > header {
-    color: white;
+    color: black;
     line-height: 1.25;
     font-size: 1.5rem;
     font-weight: bold;
