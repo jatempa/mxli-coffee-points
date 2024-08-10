@@ -6,11 +6,8 @@ export const links: LinksFunction = () => [
   { rel: "stylesheet", href: styles },
 ];
 
-type CardProps = {
-  link?: string
-}
 
-export default function Card(props: PropsWithChildren<CardProps>) {
+export default function Card(props: PropsWithChildren) {
   const { children } = props;
   return (
     <article className="card">
